@@ -3,7 +3,7 @@
 [原文链接🔗](https://medium.com/hackernoon/showdown-mysql-8-vs-postgresql-10-3fe23be5c19e)
 
 
-现在[MySQL 8](https://mysqlserverteam.com/whats-new-in-mysql-8-0-generally-available/)和[PostgreSQL 10](https://www.postgresql.org/about/news/1786/)已经发布，是时候重新审视这两个主要的**开源关系数据库**是如何如何彼此竞争的。
+现在[MySQL 8](https://mysqlserverteam.com/whats-new-in-mysql-8-0-generally-available/)和[PostgreSQL 10](https://www.postgresql.org/about/news/1786/)已经发布，是时候重新审视这两个主要的**开源关系数据库**是如何如何彼此竞争的了。
 
 在这些版本之前，人们普遍认为，虽然Postgres在功能及其渊源方面更胜一筹，但MySQL更擅长大规模并发读/写操作测试。
 
