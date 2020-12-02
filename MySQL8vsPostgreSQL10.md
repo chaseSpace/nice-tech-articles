@@ -11,9 +11,7 @@
 
 ## 功能比较
 
-让我们看一下我们都喜欢讨论的“新颖”功能。
-
-![图片发布](https://miro.medium.com/max/60/1*RM4sMrIn4L7bcPywZWJRuw.png?q=20)
+让我们看一下大家都喜欢讨论的“新颖”功能。
 
 ![图片发布](https://miro.medium.com/max/760/1*RM4sMrIn4L7bcPywZWJRuw.png)
 
