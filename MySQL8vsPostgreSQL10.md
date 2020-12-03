@@ -13,7 +13,9 @@
 
 让我们看一下我们都喜欢讨论的“新颖”功能。
 
-<img src = "https://miro.medium.com/max/760/1*RM4sMrIn4L7bcPywZWJRuw.png" style ="zoom:75%"/>
+
+<div align=center><img src = "https://miro.medium.com/max/760/1*RM4sMrIn4L7bcPywZWJRuw.png" width="550" height="500" /></div>
+
 
 过去经常说MySQL最适合在线事务，而PostgreSQL最适合分析过程。但现在不再是这个局面了。
 
@@ -36,8 +38,7 @@
 
 下面是对二者之间特性的对比：
 
-<img src = "https://miro.medium.com/max/760/1*LtiA09xS90-5qbLdHquGiA.png" style ="zoom:75%"/>
-
+<div align=center><img src = "https://miro.medium.com/max/760/1*LtiA09xS90-5qbLdHquGiA.png" width="550" height="500" /></div>
 
 ### 进程与线程
 
@@ -74,7 +75,8 @@ Postgres不支持聚簇索引，而MySQL（InnoDB）不支持非聚集索引(Hea
 
 Postgres和MySQL都具有基于页的物理存储。（8KB和16KB）
 
-<img src = "https://miro.medium.com/max/1509/1*5t5c-FGHhdtwz1z2cmeOEQ.png" style ="zoom:45%"/>
+<div align=center><img src = "https://miro.medium.com/max/1509/1*5t5c-FGHhdtwz1z2cmeOEQ.png" width="550" height="550" /></div>
+
 [PostgreSQL物理存储简介](http://rachbelaid.com/introduction-to-postgres-physical-storage/)
 
 在PostgreSQL上，页面结构看起来像上边的图像。
@@ -83,8 +85,7 @@ Postgres和MySQL都具有基于页的物理存储。（8KB和16KB）
 length)
 `指向元组或数据行的数据对组成。请记住，在Postgres中，可以通过这种方式将同一记录的多个版本存储在同一页面中。
 
-<img src = "https://miro.medium.com/max/1298/1*UKTHGq1eJEP4xCQN9GJUgg.jpeg" style ="zoom:50%"/>
-
+<div align=center><img src = "https://miro.medium.com/max/1298/1*UKTHGq1eJEP4xCQN9GJUgg.jpeg" width="550" height="550" /></div>
 
 MySQL(InnoDB)的表空间结构与Oracle的表空间结构相似，它具有段，范围，页和行的多个结构层。
 
@@ -94,7 +95,7 @@ MySQL(InnoDB)的表空间结构与Oracle的表空间结构相似，它具有段�
 / 2 = 8KB）
 
 
-<img src = "https://miro.medium.com/max/838/1*KDibjX9OFPupE-OMybsTQg.png" style ="zoom:70%"/>
+<div align=center><img src = "https://miro.medium.com/max/838/1*KDibjX9OFPupE-OMybsTQg.png" width="550" height="550" /></div>
 
 那么，当在列中有一个大型JSON对象时会发生什么事情呢？
 
