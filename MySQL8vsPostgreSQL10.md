@@ -41,7 +41,7 @@
 
 ### 进程与线程
 
-由于[Postgres通过fork子进程](https://www.postgresql.org/docs/10/static/tutorial-arch.html)来建立连接，可能需要[高达每连接10 MB](https://www.citusdata.com/blog/2017/05/10/scaling-connections-in-postgres/)。与MySQL的“每次连接创建一个独立线程服务”模型相比，前者内存的压力更大，后者在64位平台上，[线程](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_thread_stack)的默认[堆栈大小为](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_thread_stack)256KB。（当然，采用线程局部排序缓冲区等方式可以使得此开销降低，即使说起来可以忽略不计，但事实上还是会有所消耗。）
+由于[Postgres通过fork子进程](https://www.postgresql.org/docs/10/static/tutorial-arch.html)来建立连接，可能每个连接需要花费[高达10 MB内存](https://www.citusdata.com/blog/2017/05/10/scaling-connections-in-postgres/)。与MySQL的“每次连接创建一个独立线程服务”模型相比，前者内存的压力更大，后者在64位平台上，[线程](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_thread_stack)的默认[堆栈大小为](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_thread_stack)256KB。（当然，采用线程局部排序缓冲区等方式可以使得此开销降低，即使说起来可以忽略不计，但事实上还是会有所消耗。）
 
 尽管通过[写时复制](https://en.wikipedia.org/wiki/Copy-on-write)的方式可以让子进程保留一些父进程共享的，不可变的内存状态，但是当有1,000个以上的并发连接时，基于进程的体系结构——Postgres的基本开销负担会有所增加，并且它可能是影响性能弹性的最关键的因素之一。
 
