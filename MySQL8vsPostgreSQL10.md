@@ -13,7 +13,7 @@
 
 让我们看一下我们都喜欢讨论的“新颖”功能。
 
-<img src = "https://miro.medium.com/max/760/1*RM4sMrIn4L7bcPywZWJRuw.png" style ="zoom:75%"/>
+<width="400" height="400" img src = "https://miro.medium.com/max/760/1*RM4sMrIn4L7bcPywZWJRuw.png" />
 
 过去经常说MySQL最适合在线事务，而PostgreSQL最适合分析过程。但现在不再是这个局面了。
 
@@ -36,7 +36,7 @@
 
 下面是对二者之间特性的对比：
 
-<img src = "https://miro.medium.com/max/760/1*LtiA09xS90-5qbLdHquGiA.png" style ="zoom:75%"/>
+<img src = "https://miro.medium.com/max/760/1*LtiA09xS90-5qbLdHquGiA.png" widtn ="375"/>
 
 
 ### 进程与线程
