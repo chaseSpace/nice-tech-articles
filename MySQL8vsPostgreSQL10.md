@@ -13,7 +13,9 @@
 
 让我们看一下我们都喜欢讨论的“新颖”功能。
 
-<width="400" height="400" img src = "https://miro.medium.com/max/760/1*RM4sMrIn4L7bcPywZWJRuw.png" />
+
+<div align=center><width="300" height="300" img src = "https://miro.medium.com/max/760/1*RM4sMrIn4L7bcPywZWJRuw.png" /></div>
+
 
 过去经常说MySQL最适合在线事务，而PostgreSQL最适合分析过程。但现在不再是这个局面了。
 
