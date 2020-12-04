@@ -10,5 +10,3 @@ NoSQL DB
 
 
 ### TODO
-
-https://medium.com/hackernoon/showdown-mysql-8-vs-postgresql-10-3fe23be5c19e
