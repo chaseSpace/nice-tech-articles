@@ -1,9 +1,11 @@
 # nice-tech-articles
 ### slogan
-优秀技术文章的搬运工
+只翻译优秀的技术文章
     
 ### 数据库
 -  [MySQL8 vs Postgre SQL10](https://github.com/chaseSpace/medium-nice-articles/blob/main/database/MySQL8_vs_PostgreSQL10.md)
+-   #### TODO
+    -   [Understanding HBase and BigTable](https://dzone.com/articles/understanding-hbase-and-bigtab)
 
 ### 编程语言
 -   #### TODO
@@ -20,5 +22,4 @@
 ### 贡献
 -   克隆本仓库
 -   新增文章(译文|优秀个人文章) ，组织好目录，并注意文件命名风格
--   合并一次Master(避免过多冲突)
--   提交PR，等待Review
+-   提交PR(提交前合并一次main分支)
